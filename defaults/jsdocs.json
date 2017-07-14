@@ -1,0 +1,20 @@
+{
+  "source": {
+    "include": [
+      "readme.md",
+      "src",
+      "disted"
+    ],
+    "includePattern": ".+\\.js(doc)?$"
+  },
+  "opts": {
+    "recurse": true,
+    "destination": "./jsdocs",
+    "template": "node_modules/tui-jsdoc-template",
+    "package": "package.json"
+  },
+  "plugins": [
+    "node_modules/jsdoc-babel",
+    "plugins/markdown"
+  ]
+}
