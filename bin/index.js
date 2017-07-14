@@ -1,0 +1,1 @@
+require('../disted/interactive/interactive')
