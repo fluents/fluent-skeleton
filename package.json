@@ -1,0 +1,76 @@
+{
+  "version": "0.0.2",
+  "name": "fluent-skeleton",
+  "description": "cli",
+  "scripts": {
+    "n": "node npm",
+    "test": "true",
+    "_test": "jest --verbose",
+    "_postinstall": "cd doxdox && npm i",
+    "strip": "flow-remove-types src/ --pretty --all --out-dir disted/"
+  },
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "dependencies": {
+    "jest": "*",
+    "does-include": "*",
+    "dot-prop": "4.1.1",
+    "doxdox": "*",
+    "execa": "^0.6.3",
+    "file-chain": "*",
+    "flipchain": "*",
+    "cli-chain": "*",
+    "fluent-cli": "*",
+    "flipfile": "*",
+    "fliplog": "*",
+    "funwithflags": "*",
+    "github-username": "^4.0.0",
+    "jsdoc": "^3.4.3",
+    "likeaboss": "*",
+    "obj-chain-core": "*",
+    "obj-chain-plugin-pkg": "*",
+    "obj-chain-plugin-lodash": "*",
+    "obj-chain-plugin-kebab": "*",
+    "obj-chain-plugin-map": "*",
+    "obj-chain-plugin-file": "*",
+    "script-chain": "*",
+    "to-arr": "*",
+    "globby": "*",
+    "prettier": "*",
+    "babel-core": "*",
+    "jsdoc-api": "*",
+    "jsdox": "*",
+    "open-editor": "*"
+  },
+  "keywords": [
+    "eh",
+    "canada",
+    "fluent",
+    "chainable",
+    "chain-able",
+    "skeleton",
+    "seed",
+    "yeoman",
+    "wip"
+  ],
+  "author": "James <aretecode@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fluents/fluent-skeleton"
+  },
+  "homepage": "https://github.com/fluents/fluent-skeleton",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluents/fluent-skeleton.git"
+  },
+  "jest": {
+    "globals": {
+      "__DEV__": true
+    },
+    "rootDir": ".",
+    "testRegex": "(tests/)(.*).js$"
+  },
+  "devDependencies": {
+    "flow-remove-types": "^1.2.1"
+  }
+}
