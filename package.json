@@ -14,7 +14,7 @@
   "dependencies": {
     "jest": "*",
     "does-include": "*",
-    "dot-prop": "4.1.1",
+    "dot-prop": "5.2.0",
     "doxdox": "*",
     "execa": "^0.6.3",
     "file-chain": "*",
